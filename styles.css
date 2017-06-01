@@ -1,0 +1,361 @@
+body {
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+}
+#newsletterbody {
+  width: 100%;
+}
+
+.mainwrap {
+  width: 100%;
+  background-color: #f1f0e8;
+}
+
+.container {
+  display: flex;
+}
+.container_nav {
+  display: flex;
+  background-color: white;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+#logodiv {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#navdiv {
+  flex:1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#blankdiv {
+  flex: 1;
+}
+#birdhouse {
+  float: left;
+}
+#navdiv a {
+  padding: 0px 5px 0px 5px;
+}
+
+
+.nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 20px 5px 20px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+
+  
+}
+
+nav a:link {
+    color: #2B2F26;
+}
+
+nav a:hover {
+    color: #CD5D67;
+}
+nav a:active {
+    color: #968772 !important;
+    text-decoration: none;
+}
+.heading {
+  background-color: #f1f0e8;
+  padding: 25px 5px 25px 5px;
+  
+}
+
+.heading h1 {
+   font-family: 'Lora', serif;
+   font-size: 35pt;
+   margin-bottom: -70px;
+   padding-bottom: -50px;
+}
+
+.heading2 h1 {
+   font-family: 'Lora', serif;
+   font-size: 35pt;
+   margin-bottom: -25px;
+ 
+}
+
+#head {
+   font-family: 'Lora', serif;
+   font-size: 20pt;
+}
+
+.picrow1 {
+  display: flex;
+  background-color: #f1f0e8;
+    font-family: 'Lora', serif;
+}
+
+.picrow2 {
+  display: flex;
+  background-color: #f1f0e8;
+}
+
+
+.pic1 {
+  background-image: url("images/product-1.jpg");
+  height: 300px;
+  background-size: cover;
+  flex: 3;
+  margin: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.pic2 {
+  background-image: url("images/product-2.jpg");
+  height: 300px;
+  background-size: cover;
+  flex: 1;
+  margin: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.pic3 {
+  background-image: url("images/product-3.jpg");
+  height: 300px;
+  background-size: cover;
+  flex: 1; 
+  margin: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.pic4 {
+  background-image: url("images/product-4.jpg");
+  height: 200px;
+  background-size: cover;
+  flex: 1;
+  margin: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.pic5 {
+  background-image: url("images/product-5.jpg");
+  height: 200px;
+  background-size: cover;
+  flex: 1;
+  margin: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.pic6 {
+  background-image: url("images/product-6.jpg");
+  height: 200px;
+  background-size: cover;
+  flex: 2; 
+  margin: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.pic7 {
+  background-image: url("images/product-7.jpg");
+  height: 200px;
+  background-size: cover;
+  flex: 1; 
+  margin: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.pictext {
+  background-color: #30322b;
+  padding: 15px;
+  color: #f1f0e8;
+  height: 20px;
+  margin-left: 5px;
+
+}
+
+#aboutwrapper {
+  display: block;
+  
+  background-color: #f1f0e8;
+  padding: 20px;
+  margin-bottom: -50px;
+}
+#abouttextwrap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f0e8;
+}
+#birdhouse {
+  flex: 1;
+  padding-right: 10px;
+}
+
+#abouttexttop {
+  flex: 3;
+  font-family: 'Lora', serif;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+#footer {
+  background-color: #30322b;
+  padding: 15px;
+}
+#footertext {
+  color: white;
+  text-align: left;
+}
+div > h1 {
+  padding-bottom: 50px;
+}
+blockquote {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  border-left-style: solid; 
+  border-left-width: 2px;
+  margin-left: 0px;
+  text-align: left;
+  padding: 10px;
+}
+#blockquoteh2 {
+text-align: left;
+font-family: 'Lora', serif;
+}
+#aboutsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/Users/stephenwicks/ironyard/front_end_fundamentals/week-one-project/images/background-3.jpg");
+  height: 300px;
+  background-size: cover;
+}
+#aboutsection > h1 {
+  color: #f1f0e8;
+  font-family: 'Lora', serif;
+  font-size: 45pt;
+}
+#facilities1 {
+  background-color: #f1f0e8;
+  text-align: left;
+  font-family: 'Lora', serif;
+  padding: 10px;
+  margin: 0px 0px -50px 0px !important;
+}
+
+#facilities2 {
+  flex: 3;
+  text-align: left;
+  padding: 10px;
+}
+#facilities3 {
+  flex: 1;
+  padding: 10px;
+}
+#facilities3 > p {
+  font-size: smaller;
+  font-family: 'Lora', serif;
+  text-align: left;
+  margin-top: 0px;
+}
+#facilities3  img {
+  padding-bottom: -50px;
+}
+h2 {
+  background-color: #f1f0e8;
+  text-align: left;
+  font-family: 'Lora', serif;
+  padding: 10px;
+  margin: 0px 0px 0px 0px !important;
+}
+table {
+    font-family: 'Lora', serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #eee9dc;
+}
+tr {
+  background-color: #f1f0e8;
+}
+#newsletterdiv {
+  display: flex;
+  background-image: url("images/background-2.jpg");
+  background-size: cover;
+  height: auto;
+  align-content: center;
+  justify-content: space-around;
+  padding: 25px;
+}
+form {
+  background-color: white;
+  padding: 20px;
+  font-family: 'Lora', serif;
+}
+#form {
+   font-family: 'Lora', serif;
+   font-size: 15pt;
+}
+
+fieldset {
+  display: flex;
+  border: none;
+  justify-content: flex-start;
+  text-align: left;
+}
+input[type=text] {
+  border: none;
+  padding: 5px;
+}
+
+input[type=email] {
+  border: none;
+  padding: 5px;
+}
+
+.hr {
+  background-color: #968772;
+  length: 100%;
+  height: 2px;
+}
+button {
+  background-color: #968772;
+  padding: 15px;
+  color: #F2F1E8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13pt;
+  width: 125px;
+}
+button:hover {
+  background-color: #967343;
+  padding: 15px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13pt;
+  width: 125px;  
+}
